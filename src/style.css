@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --amarelo-ahtp: #E1FF16;
+    --marrom-ahtp: #574F4C;
+  }
+
 *{
     margin: 0;
     padding: 0;
     font-family: "Josefin Sans", sans-serif;
     width: 100%;
 }
+
 header{
     background-color: black;
     width: 100%;
 }
+
 main{
     /* background-color: white; */
     background-image: url("/src/images/FUNDO.png");
@@ -18,19 +26,20 @@ main{
 }
 
 footer{
-    background-color: #574F4C;
+    background-color: var(--marrom-ahtp);
     width: 100%;
 }
 
 .card{
-    background-color: whitesmoke;
+    background-color: white;
 }
+
 .card:hover{
     background-color: black;
 }
 
 .btn{
-    color: yellow;
+    color: var(--amarelo-ahtp);
     background-color: black;
     width: 40%;
     height: 80%;
@@ -39,9 +48,13 @@ footer{
 
 .btn:hover{
     color:black;
-    background-color: yellow;
+    background-color: var(--amarelo-ahtp);
 }
 
 p{
     font-size: medium;
+}
+
+#disclaimer{
+    background-color: var(--amarelo-ahtp);
 }
