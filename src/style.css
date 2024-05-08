@@ -58,13 +58,13 @@ p{
     font-size: medium;
 }
 
-#disclaimer{
+.disclaimer{
     background-color: var(--amarelo-ahtp);
 }
 
-#descricao{
+/* #descricao{
     font-size:large;
-}
+} */
 
 #em_breve{
     background-color: #1D1D1D;
