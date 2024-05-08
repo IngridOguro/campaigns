@@ -37,6 +37,10 @@ footer{
     background-color: black;
 }
 
+.card_em_breve:hover{
+    background-color: white;
+}
+
 .btn{
     color: var(--amarelo-ahtp);
     background-color: black;
@@ -60,4 +64,13 @@ p{
 
 #descricao{
     font-size:large;
+}
+
+#em_breve{
+    background-color: #1D1D1D;
+    color: gray;
+}
+
+#em_breve:hover{
+    cursor: default;
 }
