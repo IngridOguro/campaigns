@@ -10,7 +10,10 @@ header{
     width: 100%;
 }
 main{
-    background-color: white;
+    /* background-color: white; */
+    background-image: url("/src/images/FUNDO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 
@@ -20,7 +23,7 @@ footer{
 }
 
 .card{
-    background-color: #574F4C;
+    background-color: whitesmoke;
 }
 .card:hover{
     background-color: black;
