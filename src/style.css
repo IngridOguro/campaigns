@@ -25,3 +25,9 @@ footer{
     height: 80%;
     font-size:x-small;
 }
+
+.btn:hover{
+    color:#004D18;
+    background-color: #96FBB6;
+}
+
