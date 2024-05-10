@@ -41,6 +41,14 @@ footer{
     background-color: white;
 }
 
+.card_desabilitado{
+    opacity: 50%;
+}
+
+.card_desabilitado:hover{
+    background-color: white;
+}
+
 .btn{
     color: var(--amarelo-ahtp);
     background-color: black;
@@ -66,11 +74,11 @@ p{
     font-size:large;
 } */
 
-#em_breve{
+#desabilitado{
     background-color: #1D1D1D;
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 
-#em_breve:hover{
+#desabilitado:hover{
     cursor: default;
 }
