@@ -3,6 +3,8 @@
 :root {
     --amarelo-ahtp: #E1FF16;
     --marrom-ahtp: #574F4C;
+    --marrom-ahtp2: #827672;
+    --verde-ahtp:#5BBD43;
   }
 
 *{
@@ -18,9 +20,9 @@ header{
 }
 
 main{
-    background-color: #827672;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--marrom-ahtp2);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     width: 100%;
 }
 
@@ -70,10 +72,6 @@ p{
     background-color: var(--amarelo-ahtp);
 }
 
-/* #descricao{
-    font-size:large;
-} */
-
 #desabilitado{
     background-color: #1D1D1D;
     color: rgb(255, 255, 255);
@@ -81,4 +79,8 @@ p{
 
 #desabilitado:hover{
     cursor: default;
+}
+
+.partner:hover{
+    background-color: var(--verde-ahtp);
 }
